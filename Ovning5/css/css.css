@@ -1,0 +1,25 @@
+body {
+  background: #2c3e50;
+  transition: 0.5s;
+}
+
+.on {
+  background: #ecf0f1;
+}
+
+.size {
+  padding-top: 10px;
+  background: #bdc3c7;
+  border-radius: 90px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  font-size: 60px;
+  line-height: 80px;
+  margin-top: 23%;
+}
+
+.highlight {
+  background: #f1c40f;
+}

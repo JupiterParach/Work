@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #bdc3c7 , #7f8c8d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #bdc3c7 , #7f8c8d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #bdc3c7, #7f8c8d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #bdc3c7, #7f8c8d); /* Standard syntax */;
+  padding-bottom: 70px;
+}
+
+.header {
+  width: 99%.25;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: black;
+  color: white;
+  font-size: 28px;
+  height: 8%;
+}
+
+.box {
+  min-height: 100%;
+  position: relative;
+  display: flex;
+}
+
+.side {
+  width: 19%;
+  float: left;
+  background: white;
+  padding: 0px 0px 0px 10px;
+  border-left: 1px solid black;
+  min-height: 1;
+}
+
+.at {
+  transition: 0.18s;
+  font-size: 50px;
+  font-family: monospace;
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.at:hover {
+  transition: 0.18s;
+  color: #ecf0f1;
+}
+
+.bac {
+  transition: 0.18s;
+  background: #7f8c8d;
+  width: 94.5%;
+  margin: 10px 0px 10px 0px;
+  padding-left: 10px;
+}
+
+.bac:hover {
+  transition: 0.18s;
+  background: #2c3e50;
+  width: 94.5%;
+  margin: 10px 0px 10px 0px;
+  padding-left: 10px;
+}
+
+.block {
+  width: 80%;
+  padding: 0% 1% 0% 1%;
+  float: right;
+  background: white;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  min-height: 900px;
+}
+
+.block h1 {
+  font-weight: bold;
+}
+
+.flexycontainer {
+  width: 100;
+  flex-flow: row wrap;
+  text-align: center;
+  height: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  color: white;
+  height: 30px;
+  background: black;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+div img {
+  width: auto;
+  height: 320px;
+  padding: 0.25%;
+  margin: 0px;
+}
+
+form {
+  color: grey;
+  padding: 10px;
+}
+
+input {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.dank {
+  text-align: center;
+  font-size: 64px;
+}
+
+.kbrah {
+  width: 100%;
+}
+
+.boxen {
+  display: inline-block;
+}
+
+.stickgoddamnit {
+  top: 10px;
+  position: sticky;
+  height: auto;
+}

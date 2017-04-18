@@ -1,0 +1,82 @@
+body {
+  background: #1D4350; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1D4350 , #A43931); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1D4350 , #A43931); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.bl-1 {
+  position: relative;
+  margin: 0 auto;
+  width: 1380px;
+  height: 1080px;
+  padding-top: 50px;
+}
+
+div.bla {
+  background: #34495e;
+
+  /*Sets border*/
+  border: 15px solid #c0392b;
+
+  /*Rounded corners*/
+  border-radius: 50%;
+
+  /*Sets it in the center and pushes it down 50px*/
+  margin: left;
+  margin-top: 10%;
+
+  line-height: 480px;
+
+  /*Sets text in center*/
+  text-align: center;
+
+  /*Dimensions*/
+  width: 640px;
+  height: 480px;
+
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+div.blb {
+  background: #ecf0f1;
+
+  /*Sets border*/
+  border: 15px solid #c0392b;
+
+  /*Rounded corners*/
+  border-radius: 50%;
+
+  /*Sets it in the center and pushes it down 50px*/
+  margin: right;
+  margin-top: 10%;
+
+  line-height: 480px;
+
+  /*Sets text in center*/
+  text-align: center;
+
+  /*Dimensions*/
+  width: 640px;
+  height: 480px;
+
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+div h1 {
+
+  /*Sets the size of text*/
+  font-size: 120px;
+
+  /*Sets text color*/
+  color: #9b59b6;
+
+  /*A font from google*/
+  font-family: 'Ravi Prakash', cursive;
+
+  /*reoves default margins*/
+  margin: 0;
+}
